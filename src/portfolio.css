@@ -1,12 +1,28 @@
+:root {
+  --primary-color: rgba(146, 9, 9, 0.7);
+}
+
 h1 {
   font-family: "Meow Script", cursive;
-  text-align: center;
+  font-size: 100px;
 }
 h2,
 h3 {
   font-family: "Source Serif Pro", serif;
-  text-align: center;
 }
 .hero {
-  background-color: rgba(146, 9, 9, 0.5);
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h2 {
+  font-size: 36px;
+}
+.btn-branding {
+  background: rgb(100, 10, 10);
+  color: whitesmoke;
+
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
