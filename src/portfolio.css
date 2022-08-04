@@ -1,0 +1,12 @@
+h1 {
+  font-family: "Meow Script", cursive;
+  text-align: center;
+}
+h2,
+h3 {
+  font-family: "Source Serif Pro", serif;
+  text-align: center;
+}
+.hero {
+  background-color: rgba(146, 9, 9, 0.5);
+}
