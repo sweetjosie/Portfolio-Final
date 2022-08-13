@@ -23,7 +23,7 @@ h4 {
 .hero {
   background-color: var(--primary-color);
   text-align: center;
-  padding: 140px 20px;
+  padding: 130px 20px;
 }
 .hero h2 {
   font-size: 40px;
@@ -40,6 +40,7 @@ h4 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  margin-top: 50px;
 }
 .btn-projects {
   background: var(--primary-color);
@@ -50,16 +51,38 @@ h4 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.about-section h2 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+.about-section p {
+  color: aliceblue;
+  font-size: 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-img {
+  border-radius: 5px;
+}
 .site-description {
   line-height: 30px;
   font-weight: normal;
   font-size: 18px;
+  margin-top: 20px;
+}
+.work-img {
+  padding: 20px;
+  border-radius: 10px;
+  border: black;
 }
 .site-img {
-  border: 15px solid;
   border-radius: 4px;
-  padding: 15px;
+  border: outset;
+  padding: 20px 10px;
+  color: var(--primary-color);
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 100px;
