@@ -33,6 +33,9 @@ h4 {
 .hero h3 {
   color: aliceblue;
 }
+.dictionary-project {
+  padding-top: 20%;
+}
 
 .btn-branding {
   background: var(--primary-color);
@@ -97,6 +100,17 @@ h4 {
   font-family: "Times New Roman", Times, serif !important;
   font-size: 25px !important;
 }
+.navbar-brand {
+  font-weight: bolder !important;
+  padding-left: 40px;
+  font-size: larger !important;
+}
+.nav-item {
+  padding-left: 30px;
+}
+.home-item {
+  padding-left: 600px !important;
+}
 .active {
   color: var(--primary-color) !important;
 }
@@ -121,5 +135,8 @@ h4 {
   }
   .hero h2 {
     font-size: 20px;
+  }
+  .home-item {
+    padding-left: 30px !important;
   }
 }
