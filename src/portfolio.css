@@ -71,18 +71,35 @@ h4 {
   font-size: 18px;
   margin-top: 20px;
 }
-.work-img {
-  padding: 20px;
-  border-radius: 10px;
-  border: black;
-}
+
 .site-img {
   border-radius: 4px;
   border: outset;
   padding: 20px 10px;
   color: var(--primary-color);
 }
-
+.contact {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 26px;
+}
+.work-img {
+  border: 10px outset;
+  width: 45%;
+  padding: 10px;
+  margin: 20px;
+}
+.work-title {
+  font-size: 30px;
+}
+.navbar,
+.navbar-brand {
+  font-family: "Times New Roman", Times, serif !important;
+  font-size: 25px !important;
+}
+.active {
+  color: var(--primary-color) !important;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 100px;
