@@ -27,13 +27,18 @@
       src="https://kit.fontawesome.com/bbc8e679fa.js"
       crossorigin="anonymous"
     ></script>
+    <meta
+      name="description"
+      content="Josie is a front-end developer based in Sonora who recently learned her new skills with SheCodes. 
+      Josie's  final Projects ."
+    />
     <title>Josie's Portfolio</title>
   </head>
   <body>
     <div class="d-flex p-2">
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Josie Maia</a>
+          <a class="navbar-brand" title="Josie's Portfolio">Josie Maia</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -48,18 +53,34 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item home-item">
-                <a class="nav-link" aria-current="page" href="/index.html"
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="/index.html"
+                  title="Homepage"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/aboutme.html">About Me</a>
+                <a class="nav-link" href="/aboutme.html" title="About Josie"
+                  >About Me</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/work.html">Projects</a>
+                <a
+                  class="nav-link active"
+                  href="/work.html"
+                  title="Josie's Projects"
+                  >Projects</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
+                <a
+                  class="nav-link"
+                  href="/contact.html"
+                  title="Contact Information"
+                  >Contact</a
+                >
               </li>
             </ul>
           </div>
@@ -74,11 +95,16 @@
     <div class="container">
       <div class="row mt-5">
         <div class="col-md-6 work-img">
-          <img
-            src="src/orchid-project.png"
-            class="img-fluid"
-            alt="White orchid  "
-          />
+          <a
+            href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/805/117/original/W3Final.html?1650002239"
+            target="_blank"
+          >
+            <img
+              src="src/orchid-project.png"
+              class="img-fluid"
+              alt="White orchid  "
+            />
+          </a>
           <div class="text-center">
             <h4 class="mt-4 work-title">Orchid Project</h4>
           </div>
@@ -86,7 +112,13 @@
 
         <br />
         <div class="col-md-6 work-img">
-          <img src="src/WeatherApp.png" class="img-fluid" alt="weather app  " />
+          <a href="https://voluble-lily-ce2a35.netlify.app/" target="_blank">
+            <img
+              src="src/WeatherApp.png"
+              class="img-fluid"
+              alt="weather app  "
+            />
+          </a>
           <div class="col text-center">
             <h4 class="mt-4 work-title">Weather App</h4>
           </div>
@@ -95,11 +127,12 @@
       <br />
       <div class="row">
         <div class="col-md-6 work-img">
-          <img
-            src="src/portfolio-exercise.png"
-            class="img-fluid"
-            alt="Portfolio "
-          />
+          <a href="https://willowy-cactus-96d8c5.netlify.app/" target="_blank">
+            <img
+              src="src/portfolio-exercise.png"
+              class="img-fluid"
+              alt="Portfolio "
+          /></a>
           <div class="col text-center">
             <h4 class="mb-5 mt-5 work-title">Portfolio Exercise</h4>
           </div>
@@ -113,7 +146,10 @@
             alt="Online Dictionary "
           />
           <div class="col text-center">
-            <h4 class="mb-3 mt-3 work-title">Dictionary</h4>
+            <h4 class="mb-3 mt-3 work-title">
+              Dictionary
+              <p>Comming Soon</p>
+            </h4>
           </div>
         </div>
       </div>
@@ -122,9 +158,18 @@
     </div>
 
     <br />
-    <div class="text-center">
-      <a href="contact.html" class="btn btn-branding">Contact Me</a>
-    </div>
+    <footer>
+      <div class="contact-box d-flex justify-content-between">
+        <div>
+          <h5>Work Inquiry</h5>
+          <p>Let's Work Together</p>
+        </div>
+
+        <div>
+          <a href="contact.html" class="btn btn-contact">Contact Me</a>
+        </div>
+      </div>
+    </footer>
     <br />
   </body>
 </html>

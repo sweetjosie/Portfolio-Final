@@ -151,7 +151,7 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--primary-color);
 }
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   h1 {
     font-size: 100px;
     text-align: center;
