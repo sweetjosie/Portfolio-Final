@@ -20,6 +20,9 @@ p {
 h4 {
   font-size: 64px;
 }
+h5 {
+  font-size: 48px;
+}
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -44,6 +47,7 @@ h4 {
   line-height: 27px;
   padding: 15px 30px;
   margin-top: 50px;
+  font-family: "Source Serif Pro", serif;
 }
 .btn-projects {
   background: var(--primary-color);
@@ -53,7 +57,18 @@ h4 {
   border-radius: 5px;
   line-height: 27px;
   padding: 15px 30px;
+  font-family: "Source Serif Pro", serif;
 }
+.btn-contact {
+  background: var(--primary-color);
+  color: #f5f5f5;
+  font-size: 40px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  font-family: "Source Serif Pro", serif;
+}
+
 .about-section h2 {
   font-size: 64px;
   line-height: 1.5;
@@ -114,6 +129,28 @@ h4 {
 .active {
   color: var(--primary-color) !important;
 }
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 70px;
+  margin: 30px;
+  border-radius: 10px;
+  color: #f5f5f5;
+  font-family: "Times New Roman", Times, serif;
+}
+footer p {
+  font-family: sans-serif;
+  font-size: 24px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: #f5f5f5;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+}
+footer .email-link:hover {
+  color: var(--primary-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 100px;
@@ -138,5 +175,23 @@ h4 {
   }
   .home-item {
     padding-left: 30px !important;
+  }
+  footer .contact-box {
+    background: var(--primary-color);
+    padding: 30px;
+    margin: 12px;
+    border-radius: 8px;
+    color: #f5f5f5;
+    font-family: "Times New Roman", Times, serif;
+  }
+  h5 {
+    font-size: 28px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  .btn-contact {
+    font-size: 20px;
+    margin-top: 20px;
   }
 }
