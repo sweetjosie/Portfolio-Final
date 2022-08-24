@@ -124,7 +124,7 @@ h5 {
   padding-left: 30px;
 }
 .home-item {
-  padding-left: 600px !important;
+  padding-left: 550px !important;
 }
 .active {
   color: var(--primary-color) !important;
@@ -150,6 +150,11 @@ footer .email-link {
 }
 footer .email-link:hover {
   color: var(--primary-color);
+}
+@media (max-width: 1100px) {
+  .home-item {
+    padding-left: 300px !important;
+  }
 }
 @media (max-width: 950px) {
   h1 {
